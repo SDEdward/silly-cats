@@ -18,7 +18,22 @@ fn main() {
     let cleaned_dir_path = dir_path.trim();
 
     // List of cat picture filenames (expand this based on your repo)
-    let cat_files = ["cat1.png", "cat2.png", "cat3.png"]; // Make sure these exist in your repo
+    let cat_files = [
+        "cat1.png",
+        "cat2.png",
+        "cat3.png",
+        "cat3.png",
+        "cat4.png",
+        "cat5.png",
+        "cat6.png",
+        "cat7.png",
+        "cat8.png",
+        "cat9.png",
+        "cat10.png",
+        "cat11.png",
+        "cat12.png",
+        "cat13.png",
+    ]; // Make sure these exist in your repo
 
     // Select a random cat picture
     let random_cat_file = cat_files
